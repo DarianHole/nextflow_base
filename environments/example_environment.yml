@@ -1,0 +1,15 @@
+name: process_name
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - argparse
+  - biopython
+  - ete3
+  - numpy
+  - pandas
+  - pip
+  - vcfpy
+  - pip:
+    - git+https://github.com/process_name
